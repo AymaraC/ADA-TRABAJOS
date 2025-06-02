@@ -5,7 +5,7 @@
 
 const PromptSync = require("prompt-sync");
 
-const promptsync = require ("prompt-sync")({ sigint: true });;
+const promptsync = require ("prompt-sync")();
 
 let nombre = promptsync ("Por favor ingrese su nombre: ");
 

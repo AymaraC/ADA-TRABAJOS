@@ -1,6 +1,6 @@
 // Escribe un programa que le pida al usuario que ingrese dos numeros, los sume y muestre el resultado de esta suma
 
-const promptsync = require ("prompt-sync")({ sigint: true });;
+const promptsync = require ("prompt-sync")();
 
 // 1. Pida al usuario que ingrese dos números. 
 

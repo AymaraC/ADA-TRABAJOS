@@ -4,7 +4,7 @@
 
 // 3. Muestre un mensaje indicando cuál es el caso.
 
-const promptsync = require ("prompt-sync")({ sigint: true });;
+const promptsync = require ("prompt-sync")();
 
 let numero = parseFloat (promptsync ("Por favor, escriba un número:"));
 

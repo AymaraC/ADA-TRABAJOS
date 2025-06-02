@@ -4,7 +4,7 @@
 
 // 3. Muestre el resultado en la consola.
 
-const promptsync = require ("prompt-sync")({sigint: true});
+const promptsync = require ("prompt-sync")();
 
 let numero = promptsync ("Por favor, escriba un número:");
  
