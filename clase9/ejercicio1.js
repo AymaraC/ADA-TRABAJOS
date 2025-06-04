@@ -6,7 +6,8 @@ const prompt = require("prompt-sync")({sigint:true});
 let numero1 = prompt("ingrese un numero: ") ;
 let numero2 = prompt("ingrese otro numero: ") ;
 
-if (numero1 > numero2) {console.log}(numero1 + "es mayor que" + numero2);
+if (numero1 > numero2) 
+    {console.log}(numero1 + "es mayor que" + numero2);
 
 if (numero1 > numero2) {
     console.log(numero1 + " es mayor que " + numero2);
