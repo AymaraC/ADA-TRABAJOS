@@ -8,6 +8,5 @@ const promptsync = require("prompt-sync")();
 let usuario = parseInt (promptsync("Ingrese un número: "));
 
 for (let contar = 1 ; contar <= usuario ; contar ++ ){
-
     console.log ("Contando " + contar)
 };
