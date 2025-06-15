@@ -24,6 +24,8 @@ let comida = promptsync("¿Cuál comida preferís? Asado, Pizza o Empanadas: ").
         case "empanadas":
             console.log ("¡Muy rico! Aguanten las del norte.")   
         break;
+        default:
+            console.log ("¡Esa comida no la conozco!")
     }
 
         
