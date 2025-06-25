@@ -12,25 +12,26 @@ const promptSync = require ("prompt-sync")();
 let floresFavoritas = [];
 
 let primerFlor = promptSync("Ingrese su la flor que más le guste: ").toLowerCase();
-floresFavoritas = [floresFavoritas.length]
+floresFavoritas[floresFavoritas.length] =primerFlor
 let segundaFlor = promptSync("Ingrese su segunda flor favorita: ").toLowerCase();
-floresFavoritas = [floresFavoritas.length]
+floresFavoritas[floresFavoritas.length] =segundaFlor
 let tercerFlor = promptSync("Ingrese su tercer flor favorita: ").toLowerCase();
-floresFavoritas = [floresFavoritas.length]
+floresFavoritas[floresFavoritas.length] =tercerFlor
 
 let cuartaFlor = promptSync("Y te pido una flor más: ").toLowerCase();
 
+let coincidencias = 0;
+
 for (let i= 0; i < floresFavoritas.length; i++){
-    if (primerFlor === cuartaFlor){
-        console.log ("¡Es la misma que la flor que más te gusta!🎉")
-    
-    }else if (segundaFlor === cuartaFlor){
-        console.log ("¡Coincide con tu segunda flor favorita!💮")
-    }else if (tercerFlor === cuartaFlor){
-        console.log ("¡Coincidió con la tercera!💐")
-    }else{
-        console.log ("Esa es una flor no mencionada antes🌼")
+    if (floresFavoritas[i] === cuartaFlor){
+       coincidencias ++;    //Acá le estamos diciendo sumale 1 a la variable coincidencias
     }
+
+    
+}if (coincidencias > 0) {
+  console.log("¡Esa flor ya estaba entre tus favoritas! 🌸 Apareció " + coincidencias + " vez/veces.");
+} else {
+  console.log("Esa es una flor no mencionada antes 🌼");
 }
 
 
