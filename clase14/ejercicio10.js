@@ -27,7 +27,7 @@ for (let i= 0; i < floresFavoritas.length; i++){
        coincidencias ++;    //Acá le estamos diciendo sumale 1 a la variable coincidencias
     }
 
-    
+
 }if (coincidencias > 0) {
   console.log("¡Esa flor ya estaba entre tus favoritas! 🌸 Apareció " + coincidencias + " vez/veces.");
 } else {
