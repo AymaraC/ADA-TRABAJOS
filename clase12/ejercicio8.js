@@ -17,14 +17,14 @@ let matriz = [
 ];
 
 function sumarDiagonalRoja (matriz){
-    let suma = 0;
-    let miArray = [];
-    for (let i=0; i < matriz.length; i ++){
-        let valor = matriz[i][i]
-        suma += valor;
-        miArray.push(valor); 
+    let suma = 0;                       //Acumula nos números de la diagonal roja
+    let miArray = [];                   //Guarda los números que encuentra en la diagonal roja
+    for (let i=0; i < matriz.length; i ++){    //Es el bucle que va a recorrer todas las filas de la matriz
+        let valor = matriz[i][i]               //Toma el valor de la diagonal y como son iguales el numero de fila con el de columan es i, i
+        suma += valor;                         //A la variable suma le sumamos el valor(numero de la diagonal) 
+        miArray.push(valor);                   //VA agregando el valor (número) que va encontrando en el array
     }
-    console.log("Valores de la diagonal roja:", miArray);
+    console.log("Valores de la diagonal roja:", miArray);  //Esto muestra los números de la diagonal por consola
     return suma;
     }
 
@@ -45,6 +45,8 @@ function sumarDiagonalRoja (matriz){
 
 console.log("Suma diagonal roja:", sumarDiagonalRoja(matriz));
 console.log("Suma diagonal verde:", sumarDiagonalVerde(matriz));
+
+
 
 
 
