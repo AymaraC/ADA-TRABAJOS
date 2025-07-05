@@ -17,7 +17,7 @@ let matriz = [
 ];
 
 function sumarDiagonalRoja (matriz){
-    let suma = 0;                       //Acumula nos números de la diagonal roja
+    let suma = 0;                       //Acumula todos los números de la diagonal roja
     let miArray = [];                   //Guarda los números que encuentra en la diagonal roja
     for (let i=0; i < matriz.length; i ++){    //Es el bucle que va a recorrer todas las filas de la matriz
         let valor = matriz[i][i]               //Toma el valor de la diagonal y como son iguales el numero de fila con el de columan es i, i

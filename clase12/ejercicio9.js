@@ -5,7 +5,7 @@ Para simplificar, vamos a considerar que todos los meses tienen cuatro
 semanas. */
 
 let sumaSemana = 0; //acumula los valores de la fila
-let semana = 3; //elije que fila mirar
+let semana = 3; //elije que cual fila mirar
 
 
 let matriz = [          
