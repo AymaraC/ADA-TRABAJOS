@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "zoe",
+    "descripcion": "pasear a zoe",
+    "estado": "pendiente",
+    "id": 1754660262136
+  },
+  {
+    "nombre": "estudiar",
+    "descripcion": "modulos y servidores",
+    "estado": "completa",
+    "id": 1754660262140
+  },
+  {
+    "nombre": "ejercicios",
+    "descripcion": "terminar los ejercicios",
+    "estado": "completa",
+    "id": 1754660262142
+  },
+  {
+    "nombre": "compras",
+    "descripcion": "comprar galletitas, leche, pan",
+    "estado": "completa",
+    "id": 1754660262144
+  },
+  {
+    "nombre": "entrenar",
+    "descripcion": "hacer abdominales",
+    "estado": "pendiente",
+    "id": 1754660262148
+  }
+]
