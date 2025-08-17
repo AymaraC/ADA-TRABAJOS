@@ -15,6 +15,7 @@ const path = "./libros.json"
 const leerLibros = () => {
     if (!fs.existsSync(path)){
         console.log ("No existe el archivo.")
+        return;
     } else {
        const data = fs.readFileSync(path, "utf-8")
         return JSON.parse(data)
