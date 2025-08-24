@@ -10,19 +10,17 @@ const server = net.createServer((socket) => {
     console.log(`✅ Cliente conectado: ${idClient}`);
     console.log(`Actualmente hay ${clientes.length} clientes.`);
 
-    // Cuando recibimos datos de un cliente
     socket.on('data', (data) => {
         const mensaje = data.toString().trim();
         console.log(`${idClient} dice: ${mensaje}`);
 
-        // Broadcast: enviamos a todos los clientes, incluido el que envió
-        clientes.forEach((cliente) => {
+        clientes.forEach((cliente) => {             //Enviamos un mensaje a todos los clientes, también al que nos envió.
             cliente.write(`${idClient}: ${mensaje}`);
         });
     });
 
     socket.on('end', () => {
-        console.log(`⏹Cliente ${idClient} terminó de enviar datos.`);
+        console.log(`Cliente ${idClient} terminó de enviar datos.`);
     });
 
     socket.on('error', (err) => {
@@ -31,7 +29,7 @@ const server = net.createServer((socket) => {
 
     socket.on('close', () => {
         console.log(`🔌 Cliente desconectado: ${idClient}`);
-        // Lo eliminamos de la lista de clientes
+        //Eliminamos al cliente desconectado.
         clientes = clientes.filter((c) => c !== socket);
         console.log(`Quedan ${clientes.length} clientes conectados.`);
     });
