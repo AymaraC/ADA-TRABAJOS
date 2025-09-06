@@ -6,7 +6,7 @@ El objetivo fue crear programas donde el cliente pueda solicitar información o 
 
 Se desarrollaron tres ejercicios: gestión de libros, reservas de hoteles y gestión de películas.
 
-##🚀 Ejercicios
+## 🚀 Ejercicios
 
 ### 1️⃣ Gestión de Libros
 * Puerto: 4000
