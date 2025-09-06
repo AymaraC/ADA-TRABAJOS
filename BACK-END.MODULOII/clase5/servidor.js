@@ -18,14 +18,14 @@ const server = net.createServer((socket) => {     //Ejercicio 2: creamos el serv
     // porque el servidor recibe los datos del cliente en forma de buffer(sistema binario). Este es el ejercicio 3.
     console.log('Mensaje recibido del cliente: ', mensaje)
 //Ejercicio 4: Responder al cliente
-    const respuesta = '¡Hola Cliente!'
-    socket.write(respuesta)
+    const respuesta = '¡Hola Cliente!'//Va dentro del createServer porque es donde se encuentra el socket  que representa a la conexión con cada cliente.
+    socket.write(respuesta)      //Dentro de data porque le queremos responder al cliente en el momento que nos envía el mensaje.
         });
 
 //Ejercicio 5: Detectar cuando el cliente se desconecta 
 
     socket.on('end',() => {
-        console.log('Cliente desconectado.');
+        console.log('Cliente desconectado.'); //Va dentro del createServer pero separado de data porque si el cliente enviaba varios mensajes, el mismo socket tenía varios listeners para end.
         
     })
 
