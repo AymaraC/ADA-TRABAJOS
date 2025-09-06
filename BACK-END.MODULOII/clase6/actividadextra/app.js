@@ -16,7 +16,7 @@ const rl = readLine.createInterface({
 rl.setPrompt('¡Hola! Vamos a transformar las palabras que ingreses a mayúsculas. Si quieres salir debes escribir "salir". Por favor ingresa una palabra: ');
 rl.prompt();
 
-rl.on('line',(input) =>{
+rl.on('line',(input) =>{         //Al usar line pregunta varias veces a diferencia del rl.question que es solo una vez.
     if(input === 'salir'){
         console.log('Gracias por utilizar nuestro programa.');
         rl.close()
