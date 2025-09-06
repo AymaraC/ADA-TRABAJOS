@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "nombre": "Hotel Plaza",
+    "habitacionesDisponibles": 5
+  },
+  {
+    "id": "2",
+    "nombre": "Grand Resort",
+    "habitacionesDisponibles": 2
+  },
+  {
+    "id": "3",
+    "nombre": "Marina Bay",
+    "habitacionesDisponibles": 0
+  },
+  {
+    "id": "4",
+    "nombre": "Sheraton",
+    "habitacionesDisponibles": 8
+  },
+  {
+    "id": "5",
+    "nombre": "Four Seasons",
+    "habitacionesDisponibles": 3
+  }
+]

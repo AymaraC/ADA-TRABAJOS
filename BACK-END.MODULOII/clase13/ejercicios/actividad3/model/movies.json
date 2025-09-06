@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "titulo": "el origen",
+    "director": "Christopher Nolan",
+    "año": 2010,
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "id": "2",
+    "titulo": "titanic",
+    "director": "James Cameron",
+    "año": 1997,
+    "genero": "Romance"
+  },
+  {
+    "id": "3",
+    "titulo": "the Matrix",
+    "director": "Lana y Lilly Wachowski",
+    "año": 1999,
+    "genero": "Acción"
+  },
+  {
+    "id": "4",
+    "titulo": "parasitos",
+    "director": "Bong Joon-ho",
+    "año": 2019,
+    "genero": "Drama"
+  },
+  {
+    "id": "5",
+    "titulo": "el padrino",
+    "director": "Francis Ford Coppola",
+    "año": 1972,
+    "genero": "Crimen"
+  }
+]
