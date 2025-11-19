@@ -9,15 +9,3 @@ function sumarTodos(...numeros: number[]){
 console.log(`La suma de todos los números es:`,sumarTodos(10, 15, 10, 30, 1, 1, 6));
 
 
-
-
-
-
-
-
-
-
-
-
-
-

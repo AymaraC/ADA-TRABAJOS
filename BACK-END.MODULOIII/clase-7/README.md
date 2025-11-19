@@ -1,4 +1,4 @@
-# Clase 15 - Encapsulamiento y Polimorfismo en TypeScript 🧩
+# Clase 7 - Encapsulamiento y Polimorfismo en TypeScript 🧩
 
 En esta clase trabajamos con principios fundamentales de la Programación Orientada a Objetos (POO) aplicados en TypeScript: Encapsulamiento y Polimorfismo.
 A través de distintos ejercicios, exploramos cómo proteger los datos dentro de las clases, controlar su acceso mediante getters y setters, y cómo reutilizar comportamientos mediante la sobrecarga y sobrescritura de métodos.

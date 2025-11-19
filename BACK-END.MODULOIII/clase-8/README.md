@@ -1,4 +1,4 @@
-# 🧠 Clase — Abstracción, Herencia, Encapsulamiento y Polimorfismo en TypeScript
+# 🧠 Clase 8 — Abstracción, Herencia, Encapsulamiento y Polimorfismo en TypeScript
 
 Este documento reúne todas las actividades trabajadas en clase, organizadas por tema: Abstracción, Herencia, Encapsulamiento y Polimorfismo.
 Cada ejercicio está pensado para practicar conceptos fundamentales de la Programación Orientada a Objetos en TypeScript.
