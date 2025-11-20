@@ -1,4 +1,5 @@
-/*Promise.race() COPIAR DEFINICION*/
+/*Promise.race() Devuelve una promesa que se resuelve o se rechaza tan pronto como una de las promesas en el iterable se 
+ejecute (puede ser rechazada o resuelta), con el valor o razón de la primera que se complete.*/
 
 const promesa7 = new Promise((resolve) => {
     setTimeout(resolve, 2000, 'Promesa 1 compleada');
