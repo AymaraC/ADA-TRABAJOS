@@ -5,7 +5,7 @@ const userRouter = Router();
 // Definir las rutas básicas de lo que seria el recurso 'usuarios'
 
 // GET '/' -> obtener todos los usuarios
-userRouter.get('/', (req,res) =>{
+userRouter.get('/', (req,res) => {
     res.json({message: 'Obteniendo todos los usuarios'});
 });
 
