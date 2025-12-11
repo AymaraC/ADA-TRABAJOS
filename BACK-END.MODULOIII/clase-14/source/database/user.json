@@ -1,0 +1,38 @@
+[
+  {
+    "id": 4,
+    "name": "Caterina",
+    "email": "catu@example.com",
+    "age": 27
+  },
+  {
+    "id": 3,
+    "name": "Pablo",
+    "email": "pabli@example.com",
+    "age": 35
+  },
+  {
+    "id": 4,
+    "name": "Caterina",
+    "email": "catu@example.com",
+    "age": 26
+  },
+  {
+    "id": 5,
+    "name": "Florencia",
+    "email": "flora@example.com",
+    "age": 36
+  },
+  {
+    "id": 6,
+    "name": "Constanza",
+    "email": "coni@example.com",
+    "age": 36
+  },
+  {
+    "id": 7,
+    "name": "Harry",
+    "email": "harry@gmail.com",
+    "age": 32
+  }
+]
