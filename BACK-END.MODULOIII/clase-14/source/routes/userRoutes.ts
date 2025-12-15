@@ -9,7 +9,10 @@ const router : Router = Router();   // : Router (lo tipamos para decirle que es 
 // RUTAS
 console.log("Rutas cargadas: /user/stats");
 
-router.get('/user/stats', UserController.getStatistics);          // Estadísticas
+router.get('/user/stats', (req, res) => {
+    console.log("Entré a /user/stats");
+    res.json(UserController.getStatistics(req, res));
+});
 router.get('/user/filter', UserController.filterUser);                 // Filtrar por nombre
 router.get('/user/domain', UserController.sameDomain);                // Contar por dominio
 router.post('/user/add-multiple', UserController.addMultiplesUsers); // Agregar varios
