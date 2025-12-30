@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1767034323126,
+    "task": "estudiar",
+    "completed": false
+  },
+  {
+    "id": 1767038663833,
+    "task": "terminar el proyecto",
+    "completed": true
+  },
+  {
+    "id": 1767038768959,
+    "task": "pasear a la perra",
+    "completed": true
+  },
+  {
+    "id": 1767038787483,
+    "task": "bañar a la perra",
+    "completed": false
+  }
+]

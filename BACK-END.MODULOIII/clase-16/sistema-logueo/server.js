@@ -89,7 +89,7 @@ app.post('/login', async(req, res) => {
 // Middleware para verificar el token
 function autenticacionToken(req,res,next) {
     const authHeader = req.headers['authorization']; 
-    const token = authHeader&& authHeader.split(' ')[1]; // Agarro el header entero y le hacemos un split para dividir la parte que dice vir de todo el token y como queda en un array le pasamos el 1 porque ahí se encuentra el token
+    const token = authHeader&&authHeader.split(' ')[1]; // Agarro el header entero y le hacemos un split para dividir la parte que dice vir de todo el token y como queda en un array le pasamos el 1 porque ahí se encuentra el token
 
     // Condicional para verificar que el token existe
     if(!token) {

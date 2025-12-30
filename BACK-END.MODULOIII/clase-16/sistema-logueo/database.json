@@ -3,5 +3,10 @@
     "id": 1765889068090,
     "email": "aymara@example.com",
     "password": "$2b$10$mhC/QnmBa3wrIueug9nRm.8unUAQq7MpdZ2s3vglj1rgqY6i4UJxG"
+  },
+  {
+    "id": 1767103957638,
+    "email": "ana@example.com",
+    "password": "$2b$10$pm1yDhfsr6LFnBrzQW/Rm.7KSZEbi12iJu2M7HAXFC5mVHE7AzPxa"
   }
 ]
